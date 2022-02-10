@@ -1,0 +1,83 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700@display=swap);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:italic@display=swap);
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+h1 {
+   font-family: "Yanone Kaffeesatz", sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   max-width: 300px;
+   min-height: 110px;
+   margin: 0 auto;
+   text-align: center;
+   background-color: cadetblue;
+   text-shadow: 3px 3px 5px rgba(247, 4, 4, 0.671);
+}
+span {
+   font-weight: 700;
+   display: block;
+}
+.menu {
+   max-width: 200px;
+   min-height: 90px;
+   margin: 0 1% 0 auto;
+   text-align: right;
+   background-color: cornsilk;
+}
+.menu li {
+   text-decoration: underline;
+}
+.padding {
+   font-size: 20px;
+   padding: 1% 2% 1% 2%;
+   background-color: black;
+   color: white;
+}
+.margin {
+   font-family: "Libre Baskerville", sans-serif;
+   font-style: italic;
+   text-decoration: line-through;
+   background-color: red;
+   font-size: 25px;
+   max-width: 800px;
+   min-height: 80px;
+   margin: 1%;
+}
+.one-block {
+   background-color: chocolate;
+   font-size: 20px;
+   max-width: 500px;
+   margin: 0 1% 20px 1%;
+   line-height: 1.5;
+}
+.two-block {
+   background-color: chocolate;
+   font-size: 20px;
+   max-width: 500px;
+   margin: 60px 1% 0 1%;
+   text-indent: 25px;
+}
+.scroll {
+   background-color: rgb(32, 166, 243);
+   max-width: 800px;
+   height: 150px;
+   margin: 1%;
+   padding: 1%;
+   overflow: auto;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+}
+.footer {
+   background-color: darkslateblue;
+   color: white;
+   padding: 1%;
+   text-align: center;
+   font-size: 40px;
+   max-width: 1000px;
+   margin: 0 auto;
+}
